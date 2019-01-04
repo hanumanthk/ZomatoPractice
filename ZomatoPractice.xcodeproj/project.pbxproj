@@ -14,6 +14,7 @@
 		C295E6AB21C503F000ED3837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C295E6A921C503F000ED3837 /* LaunchScreen.storyboard */; };
 		C295E6B621C503F100ED3837 /* ZomatoPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295E6B521C503F100ED3837 /* ZomatoPracticeTests.swift */; };
 		C295E6C121C503F100ED3837 /* ZomatoPracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295E6C021C503F100ED3837 /* ZomatoPracticeUITests.swift */; };
+		C295E6D121C5216900ED3837 /* ZomatoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C295E6D021C5216900ED3837 /* ZomatoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		C295E6BC21C503F100ED3837 /* ZomatoPracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZomatoPracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C295E6C021C503F100ED3837 /* ZomatoPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZomatoPracticeUITests.swift; sourceTree = "<group>"; };
 		C295E6C221C503F100ED3837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C295E6D021C5216900ED3837 /* ZomatoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZomatoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				C295E6A721C503F000ED3837 /* Assets.xcassets */,
 				C295E6A921C503F000ED3837 /* LaunchScreen.storyboard */,
 				C295E6AC21C503F000ED3837 /* Info.plist */,
+				C295E6D021C5216900ED3837 /* ZomatoViewController.swift */,
 			);
 			path = ZomatoPractice;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C295E6A321C503EC00ED3837 /* ViewController.swift in Sources */,
+				C295E6D121C5216900ED3837 /* ZomatoViewController.swift in Sources */,
 				C295E6A121C503EC00ED3837 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
